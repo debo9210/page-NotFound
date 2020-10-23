@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5px;
+  padding: 10px;
+  background: #333333;
+  /* height: 100vh; */
+}
+
+main {
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 5px;
+  font-family: 'Space Mono', monospace;
+}
+
+nav p {
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-align: left;
+  padding: 20px 0 0 50px;
+  text-transform: uppercase;
+}
+
+button {
+  background: #333333;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  padding: 20px 50px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.info h1 {
+  height: 190px;
+  width: 586px;
+  left: 735px;
+  top: 265px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+}
+
+.info p {
+  width: 381px;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  height: 108px;
+  left: 736px;
+  top: 491px;
+}
+
+.center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px;
+}
+
+.scarecrow {
+  height: 296px;
+  width: 370.96051025390625px;
+  left: 160.7652587890625px;
+  top: 410.57835388183594px;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 960px) {
+  .center {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 650px) {
+  nav p {
+    font-size: 24px;
+    line-height: 25.18px;
+    letter-spacing: -0.08em;
+    padding: 15px 0 0 20px;
+  }
+
+  .scarecrow {
+    height: 79.24px * 2;
+    width: 197.33 * 2px;
+    left: 88.56px;
+    top: 186.44px;
+  }
+
+  .info h1 {
+    height: 142px;
+    width: 500px;
+    left: 24px;
+    top: 407px;
+    font-size: 58px;
+    line-height: 71.09px;
+  }
+
+  .info p {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 375px) {
+  nav p {
+    font-size: 24px;
+    line-height: 25.18px;
+    letter-spacing: -0.08em;
+    padding: 15px 0 0 20px;
+  }
+
+  .scarecrow {
+    height: 78.35px * 2;
+    width: 180px;
+    left: 143.89px;
+    top: 218.78px;
+  }
+
+  .info h1 {
+    height: 142px;
+    width: 300px;
+    left: 24px;
+    top: 407px;
+    font-size: 38px;
+    line-height: 61.09px;
+    margin-left: 10px;
+    letter-spacing: -3.5%;
+  }
+
+  .info p {
+    margin: 0 0 70px 10px;
+    width: 328px;
+    height: 81px;
+    top: 578px;
+    left: 23px;
+    font-size: 18px;
+    line-height: 26.66px;
+    letter-spacing: -3.5%;
+  }
+
+  button {
+    padding: 20px 30px;
+    font-size: 14px;
+    left: 67px;
+    margin-left: 10px;
+  }
+}
